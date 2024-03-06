@@ -1,0 +1,14 @@
+package Ticket;
+
+import java.util.ArrayList;
+
+import logic.Producto;
+
+public class Ticket {
+
+	
+	
+		
+		
+	}
+}

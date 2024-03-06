@@ -1,0 +1,53 @@
+/**
+ * 
+ */
+package logic;
+
+import java.util.ArrayList;
+
+/**
+ * @author Pedro
+ *
+ */
+public class GestionProducto {
+
+	// Atributos
+	private Producto productos[] = null;
+	public double caja;
+
+	// Constructores
+	public GestionProducto() {
+
+	}
+
+	public GestionProducto(Producto[] productos) {
+		this.productos = productos;
+	}
+
+	// Methods
+	/**
+	 * 
+	 * @return
+	 */
+	public Producto[] cargarProductos() {
+
+		return productos;
+	}
+
+	/**
+	 * 
+	 * @param productos
+	 */
+	public void mostrarProductos(ArrayList<Producto> productos) {
+		
+
+			System.out.print("\n" + productos[i] + "\n" + "Nombre: " + productos[i].getNombre() + "\n" + "Disponible: "
+					+ productos[i].getCantStock() + "\n" + "Precio Unitario: " + productos[i].getPrecioUnit()
+					+ " euros."
+					+ "\n");
+
+		}
+	}
+
+		
+}

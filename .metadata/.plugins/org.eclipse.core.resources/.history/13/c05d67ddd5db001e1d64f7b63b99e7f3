@@ -1,0 +1,15 @@
+package Ticket;
+
+import java.util.ArrayList;
+
+import logic.Producto;
+
+public class Ticket {
+
+	
+	public void agregarProductos(Producto producto) {
+		ArrayList<Producto> producto2=new ArrayList<>();
+		
+		
+	}
+}
